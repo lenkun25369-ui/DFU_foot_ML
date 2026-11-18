@@ -57,7 +57,7 @@
 | Test | 200 | 7 | 7 | 186 | 59 | 127 |
 | Total | 1,210 | 122 | 28 | 1,060 | 340 | 720 |
 
-以上是 V1 原始標籤的既有稽核結果，詳細來源與 SHA-256 見 [DATA_AUDIT_20261111.md](DATA_AUDIT_20261111.md)。更換標籤檔後，請以重新匯入的 `audit_report.json` 為準。
+
 
 - `?`／空白標籤不當成 0；這些影像不進入訓練、驗證或測試清單，原始檔案仍保留。
 - 保留來源既有 split，不重新隨機切分。完全相同像素的影像按 Test > Validation > Train 的順序保留一份；同組再按檔名排序。相同影像若有衝突的 0／1 標籤，匯入會停止。
@@ -347,6 +347,4 @@ python -m unittest discover -s tests -v
 
 
 
-- [GUIDE_patient_csv.md](GUIDE_patient_csv.md)：取得真實病人對應後的通用 CSV 流程；不是目前 DFU2 固定切分的必要步驟。
-- [DATA_AUDIT_20261111.md](DATA_AUDIT_20261111.md)：V1 原始資料稽核。
 - [VALIDATION.md](VALIDATION.md)：2026-11-11 程式交付時的軟體驗證紀錄；其「尚未完整訓練」描述指當時交付狀態。
