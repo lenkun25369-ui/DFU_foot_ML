@@ -1,0 +1,35 @@
+# Python 與本機環境
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv*/
+venv/
+.ipynb_checkpoints/
+.env
+.env.*
+
+# 原始資料與研究結果
+/raw_data/
+/data/*
+!/data/labels_example.csv
+/splits*/
+/masks_dfu2*/
+/runs/
+/comparisons/
+/reviews/
+/logs/
+/reports/
+
+# 模型權重與資料包
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.xlsx
+*.xls
+
+# 編輯器與系統檔案
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
