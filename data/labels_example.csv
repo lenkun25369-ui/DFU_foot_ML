@@ -1,0 +1,4 @@
+image_path,patient_id,visit_id,label
+images/P001_V001_01.jpg,P001,V001,1
+images/P001_V001_02.jpg,P001,V001,1
+images/P002_V001_01.jpg,P002,V001,0
