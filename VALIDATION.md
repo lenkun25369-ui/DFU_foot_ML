@@ -25,4 +25,4 @@ The user's installation guide targets an isolated Python 3.10 environment in WSL
 - Patient identities and near-duplicate images have not been verified. The supplied workbook has no patient identifiers or textual definition of the 0/1 labels.
 - Synthetic metrics are software checks only and are not reported as research findings.
 
-The deliverable ZIP contains source, tests, examples and documentation only. No patient images, source workbook, trained model or installed dependencies are included. More detailed WSL guidance and the original patient-CSV workflow remain in GUIDE_patient_csv.md.
+
