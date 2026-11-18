@@ -347,4 +347,4 @@ python -m unittest discover -s tests -v
 
 
 
-- [VALIDATION.md](VALIDATION.md)：2026-11-11 程式交付時的軟體驗證紀錄；其「尚未完整訓練」描述指當時交付狀態。
+- [VALIDATION.md](VALIDATION.md)：2026-11-11 程式實際執行時的軟體驗證紀錄；其「尚未完整訓練」描述指當時狀態。
