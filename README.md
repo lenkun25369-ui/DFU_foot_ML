@@ -21,7 +21,7 @@
 
 原始照片、標籤 Excel、傷口遮罩、訓練權重及產生的研究結果需另備。本 repository 未附上這些檔案；它們缺席不代表少了 Python 程式。請將有權使用的研究資料存於本機，`.gitignore` 已排除常見資料與結果目錄。
 
-本次補檔與驗證記錄見 [REPOSITORY_CHECK.md](REPOSITORY_CHECK.md)。
+
 
 ## 2. 兩種模型如何訓練
 
@@ -344,9 +344,9 @@ python -m streamlit run app.py --server.address 127.0.0.1 -- \
 python -m unittest discover -s tests -v
 ```
 
-11 項單元測試使用合成資料，檢查資料配對、未知標籤、重複影像、病人切分、門檻與 checkpoint 等行為；通過測試不等於已證明模型的臨床效能。本次檢查範圍見 [REPOSITORY_CHECK.md](REPOSITORY_CHECK.md)。
 
-- [README_zh_TW.md](README_zh_TW.md)：原始 V1 操作紀錄，以純分類與原本本機路徑為主。
+
+
 - [GUIDE_patient_csv.md](GUIDE_patient_csv.md)：取得真實病人對應後的通用 CSV 流程；不是目前 DFU2 固定切分的必要步驟。
 - [DATA_AUDIT_20261111.md](DATA_AUDIT_20261111.md)：V1 原始資料稽核。
 - [VALIDATION.md](VALIDATION.md)：2026-11-11 程式交付時的軟體驗證紀錄；其「尚未完整訓練」描述指當時交付狀態。
